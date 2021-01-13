@@ -1,6 +1,7 @@
 # Deep Learning based Guitar Chord Classification
 
 This repository contains the contend of implementing a vision based guitar chords classification model by utilyzing deep learning. The goal was to train a classifier which can classify between the following five chords:
+
 <img src="static/notebook_images/most_used_chords.jpg" width="300"/>
 
 For the development the CRISP-DM process was used. Overall five iterations were executed:
