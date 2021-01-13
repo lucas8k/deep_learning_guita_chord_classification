@@ -1,0 +1,6 @@
+{
+  "batch_size": 50,
+  "epochs": 10,
+  "freeze_network_pretrained": "FREEZE_PRETRAINED",
+  "lr": 0.004201672054372531
+}

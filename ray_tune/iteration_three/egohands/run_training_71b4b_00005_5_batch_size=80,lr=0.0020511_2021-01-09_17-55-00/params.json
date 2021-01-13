@@ -1,0 +1,6 @@
+{
+  "batch_size": 80,
+  "epochs": 10,
+  "lr": 0.002051110418843398,
+  "net_weigths": "/content/pytorch_ssd/models/mobilenet/mobilenet-v1-ssd-mp-0_675.pth"
+}

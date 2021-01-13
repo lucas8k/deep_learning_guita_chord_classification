@@ -1,0 +1,6 @@
+{
+  "batch_size": 10,
+  "epochs": 10,
+  "lr": 0.01575132049977973,
+  "net_weigths": "/content/drive/MyDrive/guitar_detector/iteration_three/models/egohands/EGOHANDS_IMPROVED-14-Loss-1.9024428963661193.pth"
+}

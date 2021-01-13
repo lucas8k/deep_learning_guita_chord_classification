@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from torchvision import datasets, transforms, models
-import helper
 import torchvision
 import time
 import matplotlib.pyplot as plt
@@ -63,13 +62,13 @@ def visualize_model(model, dataloaders, class_names, device, num_images=8, datas
             outputs = model(inputs)
             _, preds = torch.max(outputs, 1)
             for j in range(inputs.size()[0]):
-                images_so_far += 1
-                ax = plt.subplot(num_images//2, 2, images_so_far)
-                ax.axis('off')
-                ax.set_title('predicted: {} --- acutal {}'.format(class_names[preds[j]], class_names[labels[j]]))
-                imshow(inputs.cpu().data[j])
+              images_so_far += 1
+              ax = plt.subplot(num_images//2, 2, images_so_far)
+              ax.axis('off')
+              ax.set_title('predicted: {} --- acutal {}'.format(class_names[preds[j]], class_names[labels[j]]))
+              imshow(inputs.cpu().data[j])
 
-                if images_so_far == num_images:
-                    model.train(mode=was_training)
-                    return
+              if images_so_far == num_images:
+                  model.train(mode=was_training)
+                  return
         model.train(mode=was_training)
