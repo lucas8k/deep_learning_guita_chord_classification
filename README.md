@@ -28,6 +28,7 @@ All the required python packages can be found in the requirements.txt. which are
 - ray
 - imgaug 
 - tensorboard 
+
 Can be installed by executing pip install -r requirements.txt
 
 ## How to use it:
