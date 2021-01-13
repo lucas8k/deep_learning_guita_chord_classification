@@ -16,6 +16,7 @@ For the development the CRISP-DM process was used. Overall five iterations were 
 - models/: Contains the motel weights after for each iteration. 
 - utils/: utils code which was used in the notebooks
 - vision/: implementation of a Single Shot Detector based on Pytorch. Based on https://github.com/qfgaohao/pytorch-ssd 
+- ray_tune/: contains the results of the hyperparameter optimization. Can be visualized by using tensorboard
 
 ## Dependencies:
 All the required python packages can be found in the requirements.txt. which are:
