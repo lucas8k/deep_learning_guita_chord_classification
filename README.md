@@ -31,4 +31,5 @@ Can be installed by executing pip install -r requirements.txt
 
 ## How to use it:
 All the development process during the five iterations is described in the Deep_Learning_Guitar_Chord_Classification.ipynb Notebook. 
+
 If you just want to test the final result. You can simple use the playground.ipynp Notebook which contains some simple snippets to do classififications on static images and on video based on a webcam. 
